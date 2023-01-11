@@ -1,0 +1,57 @@
+body {
+        color: #ffffff;
+    font-family: 'Poppins';
+}
+
+section {
+    padding: 12px 24px;
+    /* padding: 12px 300px; */
+    background-color: white;
+}
+
+section .prize_container .prize_card{
+  background: #1c1c1f;
+}
+
+section:nth-child(even) {
+    background-color: #D9D9D9;
+}
+
+section:nth-child(even) .prize_container .prize_card{
+  background: #37373b;
+}
+
+h2,
+h3 {
+  /* font-family: "Open Sans"; */
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight:200;
+  padding-top: 30px;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight:200;
+}
+
+h2 > span {
+  color: #EF9A9A;
+  font-weight:600;
+}
+
+h3 > span {
+    color: #EF9A9A;
+    font-weight:600;
+}
+
+p {
+  color: #000
+}
+html{
+  scroll-behavior: smooth; 
+  scrollbar-width: none;  /* Firefox */
+ }

@@ -1,0 +1,82 @@
+.accordion {
+    background: #2b2a3e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+  
+.active, .accordion:hover {
+    background-color: #383652;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    padding: 15px 0;
+}
+
+.panel p b {
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.list {
+    list-style-type: disc !important;
+    color: black !important;
+}
+
+.faq_header {
+    text-align: left;
+    margin: .5rem;
+    padding: .5rem;
+    color: #61d465;
+    font-weight: 600;
+}
+
+.faq_section {
+    padding: 0 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 1000px;
+    padding-bottom: 40px;
+    font-weight: 300 !important;
+}
+
+@media(max-width: 767px){
+    .faq_section {
+        padding: 0 30px;
+        margin: 0 15px;
+    }
+  }
+  @media(max-width: 574px){
+    .faq_section {
+        padding: 0 20px;
+        margin: 0 10px;
+    }
+  }

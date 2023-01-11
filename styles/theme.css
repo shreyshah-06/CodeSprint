@@ -1,0 +1,191 @@
+.themeContainer{
+    padding: 30px;
+    user-select: none;
+}
+.themes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 15x;
+    padding-top: 20px;
+    margin-top: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+.themebox{
+    display: flex;
+    width: 60%;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 20px auto;
+    font-size: 30px;
+    width: 270px ;
+    border-radius: 20px;
+}
+
+.themeHeader{
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    padding: 100px 20px;
+    height: 300px;
+    width: 270px;
+    margin: auto;
+}
+
+
+.red{
+    background-image: url("https://res.cloudinary.com/devimg/image/upload/v1635878716/edu_rnyj2s.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.green{
+    background-image: url("https://res.cloudinary.com/devimg/image/upload/v1635878715/theme_p1lpct.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.indigo{
+    background-image: url("https://res.cloudinary.com/devimg/image/upload/v1635878716/infra_eij08k.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.blue{
+    background-image: url("https://res.cloudinary.com/devimg/image/upload/v1635878715/health_vvylry.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.purple{
+    background-image: url("https://res.cloudinary.com/devimg/image/upload/v1635878716/roots_vmdsrr.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.teal{
+    background-image: url("https://res.cloudinary.com/devimg/image/upload/v1635878716/fintech_m887my.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.blacker{
+    background-color: rgba(0, 0, 0, 0.319);
+}
+.themeDescription{
+    padding: 100px 20px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.themebox:hover > .themeHeader{
+    display: none;
+}
+.themebox:hover > .themeDescription{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.themeDescription:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-out;
+
+}
+.themebox:hover > .blacker{
+    background-color: rgba(0, 0, 0, 0.68);
+}
+.themebox:hover > .themebox{
+    display: flex;
+}
+
+@media (max-width: 1000px){
+    .themes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 15px;
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+    .red{
+        background-image: none;
+    }
+    .green{
+        background-image: none;
+    }
+    .indigo{
+        background-image: none;
+    }
+    .blue{
+        background-image: none;
+    }
+    .purple{
+        background-image: none;
+    }
+    .teal{
+        background-image: none;
+    }
+}
+
+@media (max-width: 650px){
+    .themeContainer{
+        padding: 10px;
+    }
+    .themes{
+        width: 95%;
+    }
+    .themeContainer > h2{
+        padding-left: 10px !important;
+        width: 95%;
+    }
+    .themebox{
+        display: flex;
+        width: 100% !important;
+        cursor: pointer;
+        margin: auto;
+        /* overflow: hidden; */
+        font-size: 30px;
+        width: 150px ;
+    }
+    .themeHeader{
+        text-align: center;
+        border-radius: 20px;
+        color: white;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+        margin: auto;
+        height: 170px;
+        width: 270px;
+    }
+    .themeDescription{
+        font-size: 12px;
+        padding: 15px;
+        margin: auto;
+        height: 170px;
+        width: 270px;
+    }
+    .themeDescription:hover {
+        transform: none;
+        transition: transform 0.3s ease-out;
+    }
+    .blacker{
+        background-color: rgba(0, 0, 0, 0);
+    }
+}

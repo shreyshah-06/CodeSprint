@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBNTT6E6H5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FBNTT6E6H5');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:100,200,300|Oswald:100,200,300,400|Poppins:100,200,300,400|Open+Sans:300,400,500,600,700|Raleway:500,300|Roboto:100,200,300,400|Montserrat:100,200,300,400|&display=swap"
+    rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/a572c1bc5c.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://threejs.org/examples/js/libs/stats.min.js" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdn.lineicons.com/1.0.1/LineIcons.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/timeline.css">
+  <link rel="stylesheet" href="styles/judgesSection.css">
+  <link rel="stylesheet" href="styles/teamSection.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/theme.css">
+  <link rel="stylesheet" href="styles/faq.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/instructions.css">
+  <link rel="stylesheet" href="styles/registerForm.css">
+  <script src="https://kit.fontawesome.com/a572c1bc5c.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://threejs.org/examples/js/libs/stats.min.js" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdn.lineicons.com/1.0.1/LineIcons.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600&amp;display=swap'>
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/timeline.css">
+  <link rel="stylesheet" href="styles/judgesSection.css">
+  <link rel="stylesheet" href="styles/teamSection.css">
+  <link rel="stylesheet" href="styles/prizesSection.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/faq.css">
+
+  <title>CodeSprint</title>
+  <link rel="shortcut icon" href="./assets/gdsc-logo-16-16.png">
+</head>
+
+<body>
+
+  <section id="particles-js" class="landing_page" id="register">
+    <div class="headerContainer">
+      <img class="dscLogo" src="./assets/header/google-devs.png" />
+      <img class="dscLogoDetail" src="./assets/header/gdsc transept grey.png" />
+      <div class="tabsList">
+        <a class="tabList_Objects" onclick="location.href='#timeline';">Timeline</a>
+        <a class="tabList_Objects" onclick="location.href='#prizes';">Register</a>
+        <a class="tabList_Objects" onclick="location.href='#faq';">FAQ</a>
+      </div>
+      <div class="menuIcon" onclick="togl()"><img alt="" src="./assets/header/menu.png" /></div>
+      <div class="tabsList2">
+        <a class="tabList_Objects" onclick="location.href='#theme';togl()">Timeline</a>
+        <a class="tabList_Objects" onclick="location.href='#timeline';togl()">Register</a>
+        <a class="tabList_Objects" onclick="location.href='#faq';togl()">FAQ</a>
+      </div>
+    </div>
+    <div class="eventLogoContainer">
+      <img src="./assets/header/logo.png" />
+      <h1 class="ml11">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <!-- <span class="letters">The Sprint for the coolest developers !</span> -->
+        </span>
+      </h1>
+      <div class="registHere-home">
+        <a href=""><button class="registerherebtn" > Register Here</button></a>
+      </div>
+      <!-- <div class="buttonCont">
+        <a target="_blank" href="https://my.forms.app/gdsciiitsurat/devheat-2021">
+          <button class="waves-effect waves-light btn modifier">Register now</button>
+        </a>
+      </div> -->
+    </div>
+
+
+  </section>
+
+
+  <!-- <section>
+    <h2> <span>Video</span></h2>
+    <div class="videoCont">
+        <iframe  src="https://www.youtube.com/embed/4dq11Hx1cmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  </section> -->
+
+  <!-- Instructions-->
+  <section id="timeline">
+    <div>
+      <h2>Event <span>Timeline</span></h2>
+      <div class="timeline">
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon ">
+            <i class="fab fa-wpforms"></i>
+
+          </div>
+          <div class="timeline__event__date">
+            16-01-2023
+          </div>
+          <div class="timeline__event__content ">
+            <div class="timeline__event__title">
+              Intro to Web Dev
+            </div>
+            <div class="timeline__event__description">
+              <!-- <p>Application open for team registration and submission of ideas. Go through the criteria for the same. -->
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type2">
+          <div class="timeline__event__icon ">
+            <i class="fas fa-calendar-check"></i>
+
+          </div>
+          <div class="timeline__event__date">
+            23-01-2023
+          </div>
+          <div class="timeline__event__content ">
+            <div class="timeline__event__title">
+              Let's React
+            </div>
+            <!-- <div class="timeline__event__description"> -->
+              <!-- <p>Make sure to fill the form by 11th November, 11:59 pm. The teams will receive their acceptance mail by -->
+                <!-- the next day of their registration.</p> -->
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="timeline__event animated fadeInUp delay-2s timeline__event--type3">
+          <div class="timeline__event__icon">
+            <i class="fas fa-code"></i>
+
+          </div>
+          <div class="timeline__event__date">
+            30-01-2023
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Code Node
+            </div>
+            <div class="timeline__event__description">
+              <!-- <p>The most awaited hackathon starts with formal opening ceremony and release of themes. The hacking phase -->
+                <!-- starts at 7pm. You will get <b>round the clock</b> support of the mentors from GDSC IIIT Surat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="timeline__event animated fadeInUp delay-3s timeline__event--type4">
+          <div class="timeline__event__icon">
+            <i class="fas fa-hourglass-end"></i>
+
+          </div>
+          <div class="timeline__event__date">
+            06-02-2023
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+             API Sprint
+            </div>
+            <div class="timeline__event__description">
+              <!-- <p>The hacking phase comes to an end exactly after 60 hours on 15th November, 7 am.Put your solution into -->
+                <!-- action. Record demo video and submit it by 8 am.</p> -->
+            </div>
+
+          </div>
+        </div>
+        <div class="timeline__event animated fadeInUp delay-4s timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="fas fa-code"></i>
+
+          </div>
+          <div class="timeline__event__date">
+            13-02-2023
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+             Flutter Festival
+            </div>
+            <div class="timeline__event__description">
+              <!-- <p>The top 10(or more in exceptional case) will get an invite email to participate in Demo before the
+                judges. Top teams will showcase their solution to the judge panel. The event will be streamed live on
+                the YouTube channel of Events IIIT Surat. This will be followed by declaration of results, and vote of
+                Thanks.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: timeline section -->
+
+  <!-- prizes section-->
+  <!--END: prizes section-->
+
+
+  <!-- judges section -->
+  <!-- END: judges section -->
+
+
+  <!-- organizing team section -->
+
+  <!-- END: organizing team section -->
+  <!-- FAQ -->
+  <section id="faq">
+    <h2 class="faq_header">FAQ</h2>
+    <div class="faq_section">
+
+
+      <button class="accordion">How to know if I am registered? </button>
+      <div class="panel">
+        <p>A confirmation email will be sent to all the participants by 12 Noon of next day. In case you don't receive
+          an email by 6 PM of the next day, feel free to reach out via <a
+            href="mailto:gdsc@iiitsurat.ac.in">gdsc@iiitsurat.ac.in </a>/ call. </p>
+      </div>
+
+      <button class="accordion">Are there any on-spot registrations?</button>
+      <div class="panel">
+        <p>
+          <b>There is no on-spot registration facility available.</b> A sufficient time window has been provided to the
+          participants to register for the event. In case you have received the event information for the first time on
+          a datetime later than the deadline, you can contact the email/mobile numbers provided on the DevHeat website
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <img src="./assets/header/logo.png" class="devheat_image" />
+        </div>
+        <div class="footer-col">
+          <h4>More Links</h4>
+          <ul>
+            <li><a href="https://developers.google.com/" target="_blank" rel="noopener noreferrer">Google Developers</a>
+            </li>
+            <li><a href="http://iiitsurat.ac.in/" target="_blank" rel="noopener noreferrer">IIIT Surat</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="https://gdsc.community.dev/indian-institute-of-information-technology-surat/" target="_blank"
+                rel="noopener noreferrer"><i class="fas fa-users"></i><span>Community Page</span></a></li>
+            <li><a href="mailto:gdsc@iiitsurat.ac.in"><i class="fas fa-envelope"></i><span
+                  style="text-transform: lowercase;">gdsc@iiitsurat.ac.in</span></a></li>
+            <li><a href="tel:+917668531159"><i class="fas fa-phone"></i> Suraj - +91 76685 31159</a></li>
+            <li><a href="tel:+91 88083 08883"><i class="fas fa-phone"></i> Avanish - +91 88083 08883</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="https://twitter.com/dsc_iiitsurat" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/gdsc_iiitsurat/" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/dsc-iiitsurat/" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/DSC-IIIT-Surat" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
+    integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./particle.js"></script>
+  <script src="./text.js"></script>
+  <script src="./faq.js"></script>
+  <script type="text/javascript">
+    var alreadyRun = false;
+    function addClasses() {
+      var items = document.getElementsByClassName('timeline__event');
+      for (var i = 0; i < items.length; i++) {
+        items[i].classList.add("animated", "fadeInUp", `delay-${i}s`);
+      }
+    }
+
+    function removeClasses() {
+      var items = document.getElementsByClassName('timeline__event');
+      for (var i = 0; i < items.length; i++) {
+        items[i].classList.remove("animated", "fadeInUp");
+      }
+    }
+
+    // The function to check if div.animation_container is scrolled into view
+    function isScrolledIntoView(elem) {
+      var docViewTop = $(window).scrollTop();
+      var docViewBottom = docViewTop + $(window).height();
+
+      var elemTop = $(elem).offset().top;
+      var elemBottom = elemTop + $(elem).height();
+
+      return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+    // If div.animation_container is scrolled into view, run the fancy function
+    $(window).on('scroll', function () {
+      if (isScrolledIntoView('.timeline') && !alreadyRun) {
+        addClasses();
+        alreadyRun = true;
+      } else if (!alreadyRun) {
+        removeClasses();
+      }
+    });
+      /*var firstScroll = false;
+   var observer = new IntersectionObserver(function (entries) {
+  // isIntersecting is true when element and viewport are overlapping
+  // isIntersecting is false when element and viewport don't overlap
+    if (entries[0].isIntersecting === true) {
+      //alert("show animation")
+      if(firstScroll==false){
+        firstScroll = true;
+         var items = document.getElementsByClassName('timeline__event');
+       for (var i = 0; i < items.length; i++) {
+         items[i].classList.add("animated", "fadeInUp",`delay-${i}s`);
+       }
+     }
+
+   }
+   /*if(entries[0].isIntersecting === false){
+    var items = document.getElementsByClassName('timeline__event');
+     for (var i = 0; i < items.length; i++) {
+       items[i].classList.remove("animated", "fadeInUp",`delay-${i}s`);
+     }
+   }
+ }, { threshold: [0] });
+
+ observer.observe(document.querySelector(".timeline"));*/
+
+    // VanillaTilt.init(document.querySelector(".your-element"), {
+    //   max: 25,
+    //   speed: 100
+    // });
+  </script>
+  <!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems, {
+        onOpenStart: function () {
+          document.querySelector('#register-iframe-wrapper').innerHTML = '<iframe id="" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://my.forms.app/gdsciiitsurat/devheat-2021" frameborder="0" style="width: 1px; min-width:100%; height:500px; border:none;"></iframe>';
+          console.log('open')
+        }
+      });
+    });
+  </script> -->
+</body>
+
+</html>
