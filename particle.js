@@ -33,7 +33,7 @@ particlesJS("particles-js", {
       straight: false,
       out_mode: "bounce",
       bounce: true,
-      attract: { enable: true, rotateX: 600, rotateY: 1200 },
+      attract: { enable: false, rotateX: 600, rotateY: 1200 },
     },
   },
   interactivity: {
