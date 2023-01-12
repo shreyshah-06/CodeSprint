@@ -15,6 +15,7 @@
   
 .active, .accordion:hover {
     background-color: #383652;
+    color: #F0BA1B;
 }
   
 .accordion:after {
@@ -31,7 +32,7 @@
   
 .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: rgb(219, 217, 217);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
